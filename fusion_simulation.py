@@ -35,7 +35,6 @@ def get_times(khf,kfuse,Nvirions,Nefc, nfuse):
         tfuse_actual = min(tfuses)
         total_sorted = np.sort(themis+tfuses)
         ttotal_actual = total_sorted[nfuse-1]
-        ttotal_actual = min(themis+tfuses)
 
         themis_actual[i] = themi_actual
         tfuses_actual[i] = tfuse_actual
